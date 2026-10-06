@@ -1,0 +1,26 @@
+{
+  "name": "rephrase-x",
+  "version": "0.1.0",
+  "description": "AI-powered system-wide writing assistant for Windows",
+  "main": "dist/main/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron ."
+  },
+  "keywords": [
+    "ai",
+    "rewriter",
+    "windows",
+    "productivity"
+  ],
+  "author": "Charan",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^44.5.1",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@nut-tree-fork/nut-js": "^4.2.6"
+  }
+}
